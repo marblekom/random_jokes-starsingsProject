@@ -43,6 +43,7 @@ console.log(name);*/
 console.log(ramdoms());
 console.log('\n');
 
+/* function that converts interger array elements to sum total*/
 const sumarr = function(arr){
     let o = arr.length-1;
     let sm=0;
@@ -140,11 +141,9 @@ if (c==`YES`){
      
     if (totalvalue>= 80 && totalvalue<=109){
          console.log(`\nYOU are Aries!!\n${arrastaranswers.Aries}`);
-    }
-    else if (totalvalue>= 110 && totalvalue<=140){
+    }else if (totalvalue>= 110 && totalvalue<=140){
          console.log(`\nYOU are Taurus!!\n${arrastaranswers.Taurus}`);
-    }
-    else if (totalvalue>= 141 && totalvalue<=171){
+    }else if (totalvalue>= 141 && totalvalue<=171){
         console.log(`\nYOU are Gemini!!\n${arrastaranswers.Gemini}`);
     }else if (totalvalue>= 172 && totalvalue<=203){
         console.log(`\nYOU are Cancer!!\n${arrastaranswers.Cancer}`);
