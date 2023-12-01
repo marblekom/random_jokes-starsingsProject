@@ -131,11 +131,11 @@ if (c==`YES`){
     let numyears = sumarr(arrayyears);
 
     let totalmonths = 0;
-    
+    /*calculates the days of the previous months by the array months*/
     for (let j=nummonths-1; j>0; j--){
         totalmonths +=  + months[j];
         };
-
+    /*calculates total distance from the start of the year in days*/
     let totalvalue = totalmonths + numdays;
     
      
